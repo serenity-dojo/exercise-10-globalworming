@@ -9,6 +9,7 @@ import static org.hamcrest.core.IsEqual.equalTo;
 public class WhenCreatingObjects {
     @Test
     public void creating_a_dog() {
+        // test
         Dog fido = new Dog("Fido","Bone", 5);
         Assert.assertEquals(fido.getName(), "Fido");
         Assert.assertEquals(fido.getFavoriteToy(), "Bone");
